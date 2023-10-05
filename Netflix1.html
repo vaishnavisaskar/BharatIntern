@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Netflix India - Watch TV shows Online,Watch Movies Online</title>
+    <style>
+        @font-face {
+            font-family: netflix-sans-regular;
+            src: url("../fonts/NetflixSans_W_Rg.woff2");
+        }
+        body{
+            padding: 0px;
+            margin: 0px;
+            overflow-y: hidden;
+        }
+        .root{
+            background-size: cover;
+            background-image: url("C:/Users/hp/Documents/internimage/netflix.jpg");
+            background-position: center;
+        }
+        .navbar{
+            padding-top: 1%;
+            padding-left: 2vw;
+            padding-right: 4vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .img-logo{
+            width: 14%;
+            color:#e50914;
+        }
+        .btn-sign-in{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #e50914;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            width: fit-content;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main-container{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-titles-container{
+            width: 50%;
+            text-align: center;
+            color: white;
+        }
+        .main-title{
+            font-size: 3.2em;
+            margin-bottom: 14px;
+            line-height: 1.1;
+        }
+        .main-subtitle{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .main-call-to-action{
+            font-family: Arial, Helvetica, sans-serif;
+            font: 1.2em;
+        }
+        .main-email-container{
+            width: 55%;
+            height: fit-content;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main-email-container-input{
+            outline: none;
+            border: none;
+            padding: 20px 10px;
+            font-size: pointer;
+        }
+        .btn-get-started{
+            cursor: pointer;
+            padding: 18px 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            height: fit-content;
+            background-color: #e50914;
+            color: white;
+            font-size: 1.4em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .btn-get-started:hover{
+            background-color: #ff0b18;
+        }
+    </style>
+</head>
+<body>
+    <div class="root">
+    <nav class="navbar">
+    <img class="img-logo"src="C:\Users\hp\Documents\internimage\net3a.png" alt="net3a"/>
+    <div class="btn-sign-in">Sign in</div>
+    </nav>
+    <div class="main-container">
+    <div class="main-titles-container">
+        <h1 class="main-title">Unlimited movies, TV shows and more.</h1>
+        <h2 class="main-subtitle">Watch anywhere. cancel anytime.</h2>
+        <p class="main-call-to-action">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+        </p>
+    </div>
+    <div class="main-email-container">
+    <input class="main-email-container-input" type="email" placeholder="Email address"/>
+    <div class="btn-get-started">Get started ></div>
+    </div>
+    </div>
+</body>
+</html>
